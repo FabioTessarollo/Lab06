@@ -26,6 +26,10 @@ public class Rilevamento {
 	public Date getData() {
 		return data;
 	}
+	
+	public int getMese() {
+		return data.getMonth();
+	}
 
 	public void setData(Date data) {
 		this.data = data;
